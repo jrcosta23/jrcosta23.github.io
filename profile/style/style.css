@@ -393,78 +393,74 @@ iframe {
   background: black;
 }
 
-/* estilos  para telas */
+/* Estilos para telas menores */
 @media screen and (max-width: 480px) {
   .apresentacao {
-    flex-direction: column;
-    text-align: center;
-
-
-    }
+      flex-direction: column;
+  }
 
   .left img {
-    margin-bottom: 14px;
-
+    margin-bottom: 14px; 
   }
 
   .right {
-  text-align: center;
+    text-align: center;
+  }
 
-}
-
- .containersobremim{
+  .containersobremim {
     flex-direction: column;
- }
+  }
+
   .containersobremim .left {
     width: 75%;
     margin-right: auto;
     margin-left: auto;
   }
-  
-  .containersobremim .right{
-   width: 75%;
-   margin-right: auto;
-   margin-left: auto;
 
-   .containerServico{
-     flex-direction: column;
-   }
+  .containersobremim .right {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
+  .containerServicos {
+    flex-direction: column;
+  }
 
-   .containerServicos h2 {
-    font: 16px;
-   }
+  .containerServicos h2 {
+    font-size: 16px;
+  }
 
-   .container1,
-   .container2,
-   .container3,
-   .container4,
-   .container5,
-   .container6,
-   .container7,
-   .container8{
+  .itemServico1,
+  .itemServico2,
+  .itemServico3,
+  .itemServico4,
+  .itemServico5,
+  .itemServico6,
+  .itemServico7,
+  .itemServico8 {
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-   }
+  }
 
-   #servico h3{
+  #servicos h3 {
     font-size: 15px;
-   }
-   
-   .displayContato{
-    flex-direction: column;
-   }
+  }
 
-  texterea{
+  .displayContato {
+    flex-direction: column;
+  }
+
+  textarea {
     width: 200px;
   }
+
   .mapa {
     margin-left: 0px;
     margin-top: 50px;
-  }
 
   }
-
 
 }
+
